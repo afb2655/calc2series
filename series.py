@@ -111,10 +111,19 @@ if __name__ == '__main__':
     grapher(1.5,.5,30) #K = 1.5, P0 = .5, Iterations = 30
     grapher(2,.7,30) #K = 2, P0 = .7, Iterations = 30
     grapher(1.5,.7,30) #K = 1.5, P0 = .7, Iterations = 30
+    print("\n****************************************************************")
     print("Limit does not matter with choice of p, only the choice of K")
+    print("****************************************************************\n")
+
     grapher(3.3,.5,30) #K = 3.3, P0 = .5, Iterations = 30
+    print("\n****************************************************************")
     print("If a K value is picked between 3 and 3.4, the series will never converge, but it will oscillate between "
           "two numbers")
+    print("****************************************************************\n")
+
     grapher(3.8,.5,100) #K = 3.8, P0 = .5, Iterations = 100
     grapher(3.8,.501,100) #K = 3.8, P0 = .501, Iterations = 100
+    print("\n****************************************************************")
     print("Changing P by .001 yielded a radically different graph, which is chaotic behavior")
+    print("****************************************************************\n")
+
